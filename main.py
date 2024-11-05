@@ -19,7 +19,7 @@ if not os.path.exists('secretkey.txt'):
         t1.write('Tool security manager : momin/shinchan')
 else:
     print('')
-print(word)
+print('')
 with open('secretkey.txt','r') as f:
     encode1=f.read()
 for momin in encode1[8:16]:
